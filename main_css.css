@@ -1,0 +1,248 @@
+/* PSFBE 2016 CSS */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { 
+    display: block;
+}
+/* note: ponder on using georgia instead 
+http://www.cssfontstack.com/georgia
+*/
+
+body {
+	background-color: #333;
+	font-family: "Arial","Helvetica Neue",sans-serif;
+}
+
+#pagewrap {
+	width: 900px;
+	margin: 0 auto;
+	background-color: #333;
+}
+
+/* header css*/
+header {
+	margin-bottom: 0px;
+	border: 0;
+	padding: 0;
+}
+
+/* navbar css */
+.navbar {
+	margin-top: -4px;
+	display: inline-block;
+	height: 50px;
+	width: 100%;
+	background-color: #fff;
+	border-bottom: 1px dashed #aaa;
+
+}
+
+.navbar ul {
+	font-size: 15px;
+	list-style: none;
+}
+
+.navbar ul li {
+	padding-left: 18px;
+	padding-right: 18px;
+	display: inline-block;
+	border-left: 1px solid black;
+	margin-right: 0px;
+	float: center;
+
+}
+
+.navbar ul li:nth-child(1) {
+	padding-left: 0px;
+	border-left: none;
+}
+
+.navbar a {
+	color: #000;
+	text-decoration: none;
+}
+
+.navbar a:hover {
+	color: #aaa;
+	text-decoration: none;
+}
+
+/* content css */
+.contentwrap {
+	width: 100%;
+	height: auto;
+	background-color: #fff;
+	float: left;
+	padding-bottom: 10px;
+}
+
+.content {
+	display: inline;
+	height: inherit;
+	width: 63.67%;
+	background-color: #fff;
+	float: left;
+	padding:0 20px;
+	padding-top: 10px;
+	
+	
+}
+
+.post {
+	text-align: justify;
+	border-bottom: 1px solid #ccc;
+	line-height: 25px;
+	padding-bottom: 2px;
+
+}
+
+.post h1 {
+	font-weight: 500;
+	padding: 0;
+	margin: 10px 0 0 0;
+}
+.post h2 {
+	font-weight: 400;
+	font-size: 14px;
+	margin: 0 0;
+}
+
+/* committee.html */
+.post table {
+	border-collapse: collapse;
+	font-size: 14px;
+}
+
+.post th {
+	text-align: center;
+}
+
+.post td {
+	vertical-align: top;
+	padding: 5px;
+	text-align: left;
+
+}
+
+.post table tr td:nth-child(1) {
+	font-weight: 600;
+}
+.post table,.post tr,.post th,.post td {
+	border: 1px solid #ddd;
+}
+
+.post #reg_button {
+	text-align: center;
+	padding: .5em 1em;
+	color: #fff;
+	background-color: rgb(66,150,189);
+	border: 1px rgba(0,0,0,0);
+	border-radius: 2px;
+	margin-bottom: 10px;
+	box-shadow: 0 0 0 1px rgba(0,0,0,.0) inset,0 0 6px rgba(0,0,0,.1) inset;
+}
+
+.post a {
+	text-decoration: none;
+}
+.post a:hover #reg_button {
+	background-color: rgba(66,150,189,0.9);
+}
+.post img {
+	width: 100%;
+	height: auto;
+}
+
+/* sidebar css */
+aside {
+	display: inline;
+	width: 31.33%;
+	height: inherit;
+	background-color: #fff;
+	float: right;
+}
+
+.dates {
+	padding: 10px;
+	margin-top: 20px;
+}
+
+.dates .sec_head{
+	display: block;
+	border: 1px solid #ddd;
+	background-color: rgb(67,150,189);
+	color: #fff;
+	text-align: center;
+}
+
+.dates .sec_cont {
+	float:right;
+	border: 1px solid #ddd;
+	line-height: 30px;
+}
+
+.sidebar img {
+	margin-top: 10px;
+	padding-left: 15px;
+	width: 90%;
+	height: auto;
+}
+
+/* footer css*/
+.footer {
+	clear: both;
+	background-color: #fff;
+	border-top: 1px dashed black;
+	border-bottom: 3px solid #777;
+	height: auto;
+	padding: 10px 20px;
+}
+
+.footer_text {
+	font-size: 20px;
+	float: left;
+}
+
+.footer table {
+	border-collapse: collapse;
+}
+
+.footer td {
+	text-align: center;
+	vertical-align: center;
+}
+
+.footer td:nth-child(1) {
+	width: 55%;
+	border-right: 1px solid #ddd;
+}
+
+.footer td:nth-child(2) {
+	padding-left: 15px;
+}
+
+.footer img {
+	width: 100px;
+	height: auto;
+	
+}
+.footer .circLogo {
+	width: 120px;
+	height: auto;
+}
+
+#parallelSessionsTable,
+#parallelSessionsTable td {
+	text-align: center;
+	border: none;
+}
+
+.icons {
+	color: #333;
+}
+
+/* Responsive Stuff */
+@media screen and (max-width: 900px) {
+	.pagewrap {
+		width: 95%;
+	}
+}
+
